@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+}
+
+.chat-window {
+    flex: 2;
+}
+
+.messages {
+    height: 400px;
+    overflow: auto;
+    background-color: rgb(105, 140, 128);
+    border: 2px solid black;
+}
+
+.input-form input {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.user-list {
+    flex: 1;
+    background-color: rgb(142, 142, 211);
+    overflow: auto;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+
+.user-list h2 {
+    margin-top: 0;
+}
+
+.user-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user {
+    
+}
